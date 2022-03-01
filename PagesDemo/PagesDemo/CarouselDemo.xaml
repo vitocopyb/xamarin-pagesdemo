@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.CarouselDemo">
+    <ContentPage Title="Carousel 1" BackgroundColor="Black">
+        <Grid>
+            <Button Text="Carousel Page1 Demo" />
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Carousel 2" BackgroundColor="Aqua">
+        <Grid>
+            <Label Text="Carousel Page2 Demo" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Carousel 3" BackgroundColor="Blue">
+        <Grid>
+            <Label Text="Carousel Page3 Demo" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+        </Grid>
+    </ContentPage>
+</CarouselPage>
